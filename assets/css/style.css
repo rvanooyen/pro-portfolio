@@ -25,7 +25,8 @@
     padding-bottom: 20px;
     text-align: left;
     margin: 0 auto 35px auto;
-    width: 50%;
+    width: 100%;
+    border-bottom: 3px solid;
 }
 
 .text-left {
@@ -140,7 +141,7 @@ body {
 
 .work {
     background-color: var(--secondary-color);
-    color: var(--secondary-color);
+    
 }
 
 /* contact me style start */
@@ -186,7 +187,12 @@ body {
 .contact-info a {
     color: var(--primary-color);
 }
-/* REACH OUT STYLES END */
+/* contact me styles end */
+
+.resume {
+    background-color: var(--secondary-color);
+    }
+    
 
 footer {
     background: var(--primary-color);
