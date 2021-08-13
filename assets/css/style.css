@@ -191,8 +191,21 @@ body {
 
 .resume {
     background-color: var(--secondary-color);
-    }
-    
+}
+
+.resume > * {
+    flex:1;
+    margin: 15px;
+}
+
+.resume-doc a{
+    display: flex;
+    color: var(--primary-color);
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+    position: relative;
+}    
 
 footer {
     background: var(--primary-color);
