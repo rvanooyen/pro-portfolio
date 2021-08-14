@@ -8,7 +8,7 @@
 :root {
     --primary-color: #fce138;
     --secondary-color: #024e76;
-    --tertiary-color: var(--tertiary-color);
+    --tertiary-color: var(#06deff);
 }
 
 .primary-border {
