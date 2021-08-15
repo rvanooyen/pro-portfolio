@@ -120,6 +120,13 @@ body {
 .hero h2 {
     color: var(--secondary-color);
 }
+
+.hero img {
+    width: 300px;
+    height: 350px;
+    justify-content: left;
+    position: relative;
+}
 /* Hero Style End */
 
 .intro {
