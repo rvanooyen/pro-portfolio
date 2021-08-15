@@ -142,7 +142,8 @@ body {
 .work {
     width: 100%;
     background-color: var(--secondary-color);
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+    justify-content: space-between;   
 }
 
 .work-projects {
