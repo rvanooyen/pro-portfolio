@@ -178,13 +178,13 @@ body {
 }
 
 .work-projects img:hover {
-    width: 300px;
-    height: 250px;
+    width: 400px;
+    height: 350px;
 }
 
-.work-projects:first-child {
-    width: 900px;
-    height: 450px;
+.first-project img {
+    width: 300px;
+    height: 250px;
 }
 
 .work-projects a {
@@ -324,24 +324,17 @@ section {
         width: 100%;
     }
 
-    .hero-cta, .hero-form {
-        width: 100%;
-    }
-
-    .hero-cta {
-        text-align: center;
-    }
-
     .section-title {
         width: 80%;
     }
 
-    .trainer {
-        flex: 0 70%;
+    .work-projects img {
+        width: 80%;
+        height: 80%;
     }
 
-    .contact-info iframe {
-        flex: 1 100%;
+    .about-me p {
+        font-size: 20px;
     }
 }
 
@@ -376,10 +369,6 @@ section {
 
 /* Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
-    .hero-form button {
-        width: 100%;
-    }
-
     .section-title {
         width: 95%;
     }
@@ -387,11 +376,7 @@ section {
     .intro p {
         width: 100%;
     }
-
-    .trainer {
-        flex: 0 100%;
-    }
-
+    
     .contact-info {
         text-align: center;
     }
