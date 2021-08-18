@@ -183,8 +183,7 @@ body {
 }
 
 .first-project:first-child {
-    width: 600px;
-    height: 450px;
+    flex-grow: 100;
 }
 
 .work-projects a {
