@@ -175,6 +175,7 @@ body {
     max-width: 100%;
     justify-content: space-between;
     position: relative;
+    text-align: center;
 }
 
 .work-projects img:hover {
@@ -200,6 +201,15 @@ body {
     color: var(--tertiary-color);
 }
 
+.project-details {
+    position: relative; 
+    text-align: center;
+}
+
+.project-details h3, p {
+    position: relative;
+}
+
 .project-link h3, .project-link p, .project-link a {
     width: 100%;
 }
@@ -218,13 +228,9 @@ body {
     margin: 15px;
 }
 
-.contact-details {
-    justify-content: space-evenly;
-}
-
 .contact-info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -245,6 +251,23 @@ body {
 }
 
 .contact-info a {
+    color: var(--primary-color);
+}
+
+.contact-details {
+    flex-wrap: wrap;
+}
+
+.phone {
+    color: var(--primary-color);
+    flex-wrap: wrap;
+}
+
+.phone h3 {
+    text-align: center;
+}
+
+.phone p {
     color: var(--primary-color);
 }
 /* contact me styles end */
@@ -383,5 +406,27 @@ section {
 
     .contact-info > * {
         flex: 0 100%;
+    }
+}
+
+/* Media query for iphone 6/7 */
+@media screen and (max-width: 375px) {
+    .project-link h3, p {
+        font-size: 8px;
+    }
+
+    .run-buddy img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .robot-gladiators img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .run-buddy img {
+        width: 100px;
+        height: 150px;
     }
 }
